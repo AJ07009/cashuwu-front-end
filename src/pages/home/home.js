@@ -59,7 +59,7 @@ function HomeHero(){
 function HomeFooter(){
     return (
         <footer>
-            <p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p> -->
+            {/* <p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>  */}
             <div class="social">
                 <a href="#">F<i class="fab fa-facebook-f"></i></a>
                 <a href="#">I<i class="fab fa-instagram"></i></a>
