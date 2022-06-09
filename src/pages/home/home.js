@@ -6,8 +6,8 @@ import styles from "./home_style.css"
 function About(){
     return (
         <div>
-            <section className={styles.About}>
-                <div className={styles.Main}>
+            <section class="about">
+                <div class="main">
                     <div className={styles.AboutText}>    
                         <h2>About Us</h2>
                         <h5>Scan and <span> Save</span></h5>
