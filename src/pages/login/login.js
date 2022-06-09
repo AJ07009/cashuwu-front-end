@@ -23,7 +23,35 @@ function LoginBody(){
     return(
     <body className="loginbody">
         <div class="container" id="container">
-            <div class="form-container sign-up-container">
+            <div class="form-container ">
+            <form className = "form1" action="#">
+                    <h1>Sign in</h1>
+                    <SocialContainer />
+                    <span className="span1">or use your account</span>
+                    <input className="input1" type="email" placeholder="Email" />
+                    <input className="input1"  type="password" placeholder="Password" />
+                    <a className="a1" href="#">Forgot your password?</a>
+                    <button className="button1">Sign In</button>
+                </form>{/* <form className = "form1" action="#" >
+                    <h1 className="loginhead1">Create Account</h1>
+                    
+                    <span className="loginspan" >or use your phone number for registration</span>
+                    <input className="input1" type="text" placeholder="Name" />
+                    <input className="input1" type="phone number" placeholder="Phone number" />
+                    <input className="input1" type="password" placeholder="Password" />
+                    <button className="button1">Sign Up</button>
+                </form> */}
+            </div>
+            <div class="form-container sign-in-container">
+                {/* <form className = "form1" action="#">
+                    <h1>Sign in</h1>
+                    <SocialContainer />
+                    <span className="span1">or use your account</span>
+                    <input className="input1" type="email" placeholder="Email" />
+                    <input className="input1"  type="password" placeholder="Password" />
+                    <a className="a1" href="#">Forgot your password?</a>
+                    <button className="button1">Sign In</button>
+                </form> */}
                 <form className = "form1" action="#" >
                     <h1 className="loginhead1">Create Account</h1>
                     
@@ -32,17 +60,6 @@ function LoginBody(){
                     <input className="input1" type="phone number" placeholder="Phone number" />
                     <input className="input1" type="password" placeholder="Password" />
                     <button className="button1">Sign Up</button>
-                </form>
-            </div>
-            <div class="form-container sign-in-container">
-                <form className = "form1" action="#">
-                    <h1>Sign in</h1>
-                    <SocialContainer />
-                    <span className="span1">or use your account</span>
-                    <input className="input1" type="email" placeholder="Email" />
-                    <input className="input1"  type="password" placeholder="Password" />
-                    <a className="a1" href="#">Forgot your password?</a>
-                    <button className="button1">Sign In</button>
                 </form>
             </div>
             <div class="overlay-container">
@@ -60,16 +77,17 @@ function LoginBody(){
                 </div>
             </div>
         </div>
-        <script src="src/js/login.js"></script>
+        <script src="./script"></script>
     </body>
     )
 }
 
 export default function Login(){
     return(
-        <>
+        <body>
         <LoginHeader />
         <LoginBody />
-        </>
+        </body>
+
     )
 }

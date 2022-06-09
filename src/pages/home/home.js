@@ -8,14 +8,6 @@ import {
     Link
   } from "react-router-dom";
 
-
-const HomeRouter = () => {
-    return (
-      <section className="Home">
-      </section>
-    );
-  };
-
 function About(){
     return (
         <div>
@@ -59,8 +51,8 @@ function HomeHero(){
                     <li><a class="active" href="home.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
-                    <button class="btn" >Login</button>
-                    </ul>
+                        <button class="btn" >Login</button>
+                </ul>
             </div>
             
         </section>
@@ -68,12 +60,6 @@ function HomeHero(){
 
     )
 }
-
-// function LoginRedirect(){
-//     return(
-
-//     )
-// }
 
 function HomeFooter(){
     return (
