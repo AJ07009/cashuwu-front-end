@@ -1,5 +1,20 @@
 import React from "react";
 import "./css/home.css"
+import Login from "../login/login";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+
+
+const HomeRouter = () => {
+    return (
+      <section className="Home">
+      </section>
+    );
+  };
 
 function About(){
     return (
@@ -42,19 +57,23 @@ function HomeHero(){
             <div>
                 <ul id ="navbar">
                     <li><a class="active" href="home.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="list.html">List</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
-                    <a  href="login.html" class="btn">Login</a>
-
-                </ul>
+                    <button class="btn" >Login</button>
+                    </ul>
             </div>
+            
         </section>
 
 
     )
 }
+
+// function LoginRedirect(){
+//     return(
+
+//     )
+// }
 
 function HomeFooter(){
     return (
@@ -68,7 +87,6 @@ function HomeFooter(){
         </footer>
     )
 }
-
 export default function Home(){
     return (
 
