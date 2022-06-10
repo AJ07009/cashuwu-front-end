@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./pages/home/home";
 import Login from "./pages/login/login";
+// import '../styles/global.css'
 import {
     BrowserRouter as Router,
     Switch,
